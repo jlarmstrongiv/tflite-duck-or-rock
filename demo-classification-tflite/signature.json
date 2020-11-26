@@ -1,0 +1,29 @@
+{
+  "doc_id": "746e07b6-6cdb-4507-89bb-0cab9aba6b22",
+  "doc_name": "demo-classification",
+  "doc_version": "03f08bc32bd51d2a6803c489879548da",
+  "format": "tf_lite",
+  "version": 2,
+  "inputs": {
+    "Image": {
+      "dtype": "float32",
+      "shape": [null, 224, 224, 3],
+      "name": "Image"
+    }
+  },
+  "outputs": {
+    "Prediction": {
+      "dtype": "string",
+      "shape": [null],
+      "name": "1362df66-4dc0-4097-8c3e-81132d31d11a/tf_op_layer_3ff186c1-fe28-4442-abe1-44f7ed005781/19c66cd4-e1d6-49f4-80ab-3aa348c5b264/ff9b2ff4-4799-495e-8e91-a6fed91e9315/GatherV2/3ff186c1-fe28-4442-abe1-44f7ed005781/19c66cd4-e1d6-49f4-80ab-3aa348c5b264/ff9b2ff4-4799-495e-8e91-a6fed91e9315/GatherV2"
+    },
+    "Confidences": {
+      "dtype": "float32",
+      "shape": [null, 2],
+      "name": "1362df66-4dc0-4097-8c3e-81132d31d11a/dense_2/Softmax"
+    }
+  },
+  "tags": {},
+  "classes": { "Label": ["rock", "rubber-duck"] },
+  "filename": "saved_model.tflite"
+}
